@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+blockMesh > log.blockMesh
+decomposePar > log.decomposePar
+
+export foamExe="/home/xi944795/OpenFOAM/xi944795-v2212/platforms/linux64GccDPInt32Opt/bin/psteamTest"
+
+mpirun -np 4 $foamExe -parallel > log.pstreamtest
+#rm -r processor* 2>/dev/null
