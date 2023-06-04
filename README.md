@@ -6,7 +6,7 @@
 - 13:00 – 13:10 Welcome (Stephen Longshaw)
 - 13:10 – 14:00 OpenFOAM Fundamentals (Omar Mahfoze)
 - 14:00 – 14:15 Break
-- 14:15 – 14:45 Introduction to running OpenFOAM on ARCHER2 (Raynold Tan)
+- 14:15 – 14:45 Introduction of running OpenFOAM on ARCHER2 (Raynold Tan)
 - 14:15 – 14:45 The Virtual training Environment (Stephen Longshaw)
 - 15:00 – 15:30 Break
 - 15:30 – 16:45 Moving from serial to parallel OpenFOAM cases (Raynold Tan)
