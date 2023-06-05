@@ -1,10 +1,9 @@
 #!/bin/bash
 
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
 
-blockMesh > log.blockMesh
-decomposePar > log.decomposePar
+runApplication blockMesh 
+runApplication decomposePar
 
-export foamExe="/home/xi944795/OpenFOAM/xi944795-v2212/platforms/linux64GccDPInt32Opt/bin/psteamTest"
-
-mpirun -np 4 $foamExe -parallel > log.pstreamtest
+runParallel `getApplication`
 #rm -r processor* 2>/dev/null
